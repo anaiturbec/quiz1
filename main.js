@@ -1,12 +1,10 @@
 var index = 1;
 show(index);
 
-// Next/previous controls
 function plusSlides(n) {
   show(index += n);
 }
 
-// Thumbnail image controls
 function currentSlide(n) {
   show(index = n);
 }
