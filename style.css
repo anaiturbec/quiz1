@@ -60,7 +60,7 @@ header {
   display: none;
 }
 
-/* Next & previous buttons */
+
 .antes, .despues {
   cursor: pointer;
   position: absolute;
