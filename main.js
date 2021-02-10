@@ -1,6 +1,8 @@
 var index = 1;
 show(index);
 
+
+
 function plusSlides(n) {
   show(index += n);
 }
@@ -34,3 +36,21 @@ function open_tiktok(){
 function open_twitter(){
     window.open("https://twitter.com/", "_blank")
 }
+
+
+var skills= {
+        "Python": 100,
+        "Java": 40,
+        "JavaScript": 80,
+        "CSS": 90,
+        "HTML": 100
+    }
+
+
+document.getElementById("1").innerHTML = 'Python = ' + skills['Python'] + '%';
+document.getElementById("2").innerHTML = 'Java = ' + skills['Java'] + '%';
+document.getElementById("3").innerHTML = 'JavaScript = ' + skills['JavaScript'] + '%';
+document.getElementById("4").innerHTML = 'CSS = ' + skills['CSS'] + '%';
+document.getElementById("5").innerHTML = 'HTML = ' + skills['HTML'] + '%';
+
+
