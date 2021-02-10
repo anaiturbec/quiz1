@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
 
 * {
     box-sizing: border-box;
@@ -95,7 +96,7 @@ header {
 }
 
 .experience-title{
-    margin-top: 1000px;
+    margin-top: 1100px;
     font-family: "Montserrat", sans-serif;
     font-weight: 600px;
     font-size: 29px;
@@ -148,4 +149,42 @@ header {
     font-size: 10px;
 }
 
+.about-title{
+    margin-top: 300px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600px;
+    font-size: 29px;
+    color: white;
+    text-align: center;
+}
+
+.about img{
+    margin-top: 70px;
+    border-radius: 450%;
+    border: 15px solid white;
+    margin-left: 110px;
+}
+
+.about h1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600px;
+    font-size: 41px;
+    color: #3366ff;
+    text-align: right;
+    margin-top: -430px;
+    margin-right: 230px;
+
+}
+
+.about p{
+    font-family: "Montserrat", sans-serif;
+    width: 31%;
+    font-size: 22px;
+    text-align: justify;
+    align-content: right;
+    color: white;
+    margin-left: 767px;
+    margin-top: 40px;
+
+}
 
