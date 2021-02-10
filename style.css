@@ -87,3 +87,65 @@ header {
 }
 
 
+
+.experience{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 60px;
+}
+
+.experience-title{
+    margin-top: 1000px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600px;
+    font-size: 29px;
+    color: white;
+    text-align: center;
+}
+
+
+.experience h2{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400px;
+    color: white;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+
+}
+
+.experience img{
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+.experience img:hover{
+    box-shadow: 0px 10px 50px white;
+}
+
+.experience p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300px;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.experience h4{
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 10px;
+}
+
+

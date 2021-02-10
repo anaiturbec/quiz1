@@ -21,3 +21,16 @@ function show(n) {
   slides[index-1].style.display = "block";
   
 }
+
+
+function open_signature(){
+    window.open("https://signature.clothing/", "_blank")
+}
+
+function open_tiktok(){
+    window.open("https://www.tiktok.com/", "_blank")
+}
+
+function open_twitter(){
+    window.open("https://twitter.com/", "_blank")
+}
