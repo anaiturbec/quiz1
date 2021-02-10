@@ -91,7 +91,7 @@ header {
 .experience{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    margin-top: 60px;
+    margin-top: 100px;
 }
 
 .experience-title{
@@ -187,3 +187,127 @@ header {
 
 }
 
+.skills-title{
+    margin-top: 400px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600px;
+    font-size: 29px;
+    color: white;
+    text-align: center;
+}
+
+
+
+.percentage1 {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 700px;
+    
+
+}
+
+.percentage2 {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    text-align: right;
+    margin-right: 360px;
+    margin-top: -15px;
+    
+
+}
+
+.percentage3 {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: -15px;
+    
+
+}
+
+.percentage4 {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    text-align: left;
+    margin-left: 360px;
+    margin-top: -15px;
+    
+
+}
+
+.percentage5 {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: -15px;
+    
+
+}
+
+.line-1{
+    margin-top: -600px;
+    border-left: 50px solid green;
+    height: 500px;
+    position: left;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+    align-self: left;
+    margin-left: 70px;
+
+}
+
+.line-2{
+    margin-top: -450px;
+    border-left: 50px solid green;
+    height: 450px;
+    position: left;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+    align-self: left;
+    margin-left: 380px;
+
+}
+
+.line-3{
+    margin-top: -400px;
+    border-left: 50px solid green;
+    height: 400px;
+    position: left;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+    align-self: center;
+    margin-left: 700px;
+
+}
+
+.line-4{
+    margin-top: -200px;
+    border-left: 50px solid green;
+    height: 200px;
+    position: left;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+    align-self: center;
+    margin-left: 1000px;
+
+}
+
+.line-5{
+    margin-top: -500px;
+    border-left: 50px solid green;
+    height: 500px;
+    position: left;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+    align-self: center;
+    margin-left: 1300px;
+
+}
