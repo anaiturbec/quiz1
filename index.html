@@ -11,7 +11,7 @@
         <img class="logo" src="images/logo.png" alt="logo">
         <nav>
             <ul class="navbar">
-                <li><a href="#">EXPERIENCE</a></li>
+                <a href="#experience"><li>EXPERIENCE</li><li></a>
                 <li><a href="#">ABOUT ME</a></li>
                 <li><a href="#">SKILLS</a></li>
                 <li><a href="#">CONTACT ME</a></li>
@@ -23,17 +23,17 @@
     <div class="slider">
 
         <div class="slides">
-            <img src="images/banner.jpg" width="1437px" height="auto">
+            <img src="images/banner.jpg" width="100%" height="auto">
 
         </div>
         
         <div class="slides">
-            <img src="images/banner2.jpg" width="1437px" height="auto">
+            <img src="images/banner2.jpg" width="100%" height="auto">
 
         </div>
         
         <div class="slides">
-            <img src="images/banner3.jpg" width="1437px" height="auto">
+            <img src="images/banner3.jpg" width="100%" height="auto">
 
         </div>
         <a class="antes" onclick="plusSlides(-1)">&#10094;</a>
@@ -41,22 +41,28 @@
         </div>    
     </div>
     
-    <div class="experience-title"><h1>EXPERIENCE</h1></div>
+    <div class="experience-title"><a name="experience"><h1>EXPERIENCE</h1></a></div>
     
     <div class="experience">
         <div class="box-1">
             <h2>SIGNATURE</h2>
-            <img src="images/signature.png" alt="" width="100px" height="auto">
+            <img src="images/signature.png" onclick="open_signature()" width="100px" height="auto">
+            <p>HTML, CSS y JavaScript</p>
+            <h4>mayo 2020</h4>
 
         </div>
         <div class="box-2">
             <h2>TIKTOK</h2>
-            <img src="images/tiktok.png" alt="" width="150px" height="auto">
+            <img src="images/tiktok.png" onclick="open_tiktok()" width="146px" height="auto">
+            <p>HTML, CSS y JavaScript</p>
+            <h4>septiembre 2016</h4>
 
         </div>
         <div class="box-3">
             <h2>TWITTER</h2>
-            <img src="images/twitter.png" alt="" width="150px" height="auto">
+            <img src="images/twitter.png" onclick="open_twitter()" width="177px" height="auto">
+            <p>HTML, CSS y JavaScript</p>
+            <h4>julio 2006</h4>
 
         </div>
     </div>
