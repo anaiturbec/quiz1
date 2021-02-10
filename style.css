@@ -105,11 +105,12 @@ header {
 
 .experience h2{
     font-family: "Montserrat", sans-serif;
-    font-weight: 500px;
+    font-weight: 400px;
     color: white;
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
+    font-size: 20px;
 
 }
 
@@ -133,15 +134,17 @@ header {
     margin-top: 30px;
     margin-left: 10px;
     margin-right: 10px;
+    font-size: 12px;
 }
 
 .experience h4{
     font-family: "Montserrat", sans-serif;
     color: white;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
+    font-size: 10px;
 }
 
 
